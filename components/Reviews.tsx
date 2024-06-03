@@ -6,7 +6,7 @@ export default function Reviews() {
       <div className="text-center">
         <p className="heading_mini">Client Reviews</p>
         <h1 className="heading_primary">
-          See My <span className="text-yellow-300">20+</span> Client Feedbacks
+          See My <span className="text-yellow-300">10+</span> Client Feedbacks
         </h1>
       </div>
       <div className="w-[80%] pt-[3rem] md:pt-[5rem] mx-auto">

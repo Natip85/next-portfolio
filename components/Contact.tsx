@@ -32,9 +32,6 @@ export default function Contact() {
               something amazing. Drop me a message and let&apos;s get started on
               your next big idea!
             </p>
-            {/* <h1 className="mt-[2rem] mb-[2rem] text-[30px] text-yellow-300 underline font-bold">
-              +972 52 753 3703
-            </h1> */}
             <a
               href="tel:+972527533703"
               className="block mt-[2rem] mb-[2rem] text-[30px] text-yellow-300 underline font-bold w-fit"

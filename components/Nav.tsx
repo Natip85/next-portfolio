@@ -1,8 +1,7 @@
 "use client";
 import { Bars3CenterLeftIcon } from "@heroicons/react/16/solid";
-import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Link as RSLink, Element, animateScroll as scroll } from "react-scroll";
+import { Link as RSLink } from "react-scroll";
 
 interface NavProps {
   openNav: () => void;
