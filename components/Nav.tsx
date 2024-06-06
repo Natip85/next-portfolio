@@ -1,6 +1,6 @@
 "use client";
 import { Bars3CenterLeftIcon } from "@heroicons/react/16/solid";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Link as RSLink } from "react-scroll";
 import {
   useMotionValueEvent,
@@ -18,7 +18,7 @@ export default function Nav({ openNav }: NavProps) {
 
   useMotionValueEvent(scrollY, "change", (y) => {
     const difference = y - lastYRef.current;
-    if (Math.abs(difference) > 180) {
+    if (Math.abs(difference) > 50) {
       setHidden(difference > 0);
       lastYRef.current = y;
     }
@@ -101,11 +101,11 @@ export default function Nav({ openNav }: NavProps) {
    
     </motion.div>
     <div className="md:hidden fixed top-0 left-0 right-0 z-[1001] flex items-center justify-end p-3">
-         <Bars3CenterLeftIcon
-           onClick={openNav}
-           className="cursor-pointer size-[2.3rem] md:hidden text-white rotate-180 "
-         />
-      </div>
+      <Bars3CenterLeftIcon
+        onClick={openNav}
+        className="cursor-pointer size-[2.3rem] md:hidden text-white rotate-180 "
+      />
+     </div>
   </div>
   );
 }
