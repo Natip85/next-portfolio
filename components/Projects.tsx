@@ -12,6 +12,16 @@ export default function Projects() {
           </h1>
         </div>
         <ProjectsCard
+          title="An AI powered quiz game"
+          description="Welcome to quizMe AI, the revolutionary quiz game that combines cutting-edge technology with endless fun! Dive into a world of challenging questions and see how you stack up against our intelligent AI-powered quiz master. quizMe AI isn't just another quiz game. It's an intelligent and adaptive platform that grows with you. Whether you're a trivia enthusiast or just looking for some fun, our app provides a unique and engaging experience that will keep you coming back for more."
+          tech1="React"
+          tech2="Next JS"
+          tech3="Tailwind"
+          tech4="TypeScript"
+          image="/images/quizme-ai.png"
+          link="https://next-quizme-ai.vercel.app"
+        />
+        <ProjectsCard
           title="A Free Blog Website"
           description="Yarcone.com is an innovative platform that empowers users to share their stories, ideas, and expertise with a global audience. Featuring a seamless user experience, Yarcone.com offers a rich text editor for creating beautifully formatted articles, dynamic feeds for discovering diverse content, and robust engagement tools like comments, likes, and shares. With a focus on user-centric design and community building, Yarcone.com fosters a vibrant space for writers and readers to connect and inspire each other. Leveraging cutting-edge technologies, the platform ensures a responsive, secure, and high-performance environment for all its users."
           tech1="React"
