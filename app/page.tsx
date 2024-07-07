@@ -43,7 +43,7 @@ export default function Home() {
       <Skills />
       <Projects />
       {/* <PriceTable /> */}
-      <Reviews />
+      {/* <Reviews /> */}
       {/* <Blog /> */}
       <Contact />
       <Footer />

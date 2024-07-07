@@ -73,7 +73,7 @@ export default function AboutMe() {
                 <p className="text-[50px] text-black font-bold">50+</p>
                 <p className="text-[20px] text-black font-600">Projects done</p>
               </div>
-              <div
+              {/* <div
                 data-aos="zoom-in"
                 data-aos-anchor-placement="top-center"
                 data-aos-delay="600"
@@ -81,7 +81,7 @@ export default function AboutMe() {
               >
                 <p className="text-[50px] text-black font-bold">2</p>
                 <p className="text-[20px] text-black font-600">Awards won</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

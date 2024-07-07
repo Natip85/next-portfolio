@@ -16,7 +16,7 @@ export default function Contact() {
   };
   return (
     <Element name="Contact">
-      <div className="pt-[5rem] pb-[3rem] bg-gray-900">
+      <div className="pt-[5rem] pb-[3rem] bg-black">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center w-[80%] mx-auto">
           <div>
             <p className="heading_mini">Get in Touch</p>
