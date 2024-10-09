@@ -18,7 +18,7 @@ export default function Projects() {
           tech2="Next JS"
           tech3="Tailwind"
           tech4="TypeScript"
-          image="/images/quizme-ai.png"
+          image="/images/kd-portfolio.png"
           link="https://portfolio-kd-nine.vercel.app/"
         />
         <ProjectsCard
