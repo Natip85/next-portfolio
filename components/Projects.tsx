@@ -12,6 +12,16 @@ export default function Projects() {
           </h1>
         </div>
         <ProjectsCard
+          title="Artist Portfolio Website"
+          description="Developed a custom portfolio website to showcase the artwork of my sister-in-law, an accomplished artist. The website features a gallery of her work, categorized by mediums such as oil paintings, watercolors, and multimedia. Built with a focus on aesthetics and user experience, the site includes responsive design for seamless viewing across devices, image optimization for fast loading, and a clean, intuitive layout that highlights each piece. Integrated a content management system to allow easy updates to the gallery and categories. Technologies used: React, Next.js, Tailwind CSS, and MongoDB."
+          tech1="React"
+          tech2="Next JS"
+          tech3="Tailwind"
+          tech4="TypeScript"
+          image="/images/quizme-ai.png"
+          link="https://portfolio-kd-nine.vercel.app/"
+        />
+        <ProjectsCard
           title="An AI powered quiz game"
           description="Welcome to quizMe AI, the revolutionary quiz game that combines cutting-edge technology with endless fun! Dive into a world of challenging questions and see how you stack up against our intelligent AI-powered quiz master. quizMe AI isn't just another quiz game. It's an intelligent and adaptive platform that grows with you. Whether you're a trivia enthusiast or just looking for some fun, our app provides a unique and engaging experience that will keep you coming back for more."
           tech1="React"
