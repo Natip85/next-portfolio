@@ -52,7 +52,7 @@ export default function Hero() {
                   className="before:ease relative h-12 w-40 overflow-hidden bg-orange-600 text-white font-semibold shadow-2xl before:absolute before:left-0 before:-ml-2 before:h-48 before:w-48 before:origin-top-right before:-translate-x-full before:translate-y-12 before:-rotate-90 before:bg-green-700 before:transition-all before:duration-300 hover:text-white hover:shadow-black hover:before:-rotate-180"
                 >
                   <a
-                    href="/images/NATANEL-PERETZ-CV.pdf"
+                    href="/images/NATI_PERETZ_CV.pdf"
                     download="Nati-CV.pdf"
                     className="relative z-10"
                   >
